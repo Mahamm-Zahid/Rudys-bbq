@@ -1,0 +1,77 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+* {
+    box-sizing: border-box;
+}
+/* styles.css */
+.custom-nav-item {
+    color: white;
+    background-color: black;
+    position: relative;
+    /* flex: auto; */
+    padding: 10px 15px;
+    font-family: 'WTC-WOODIE', script;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    line-height: 75px;
+    border-right: 2px solid #f4ecec;
+    font-weight: normal;
+    height: 115px;
+    
+  }
+  /* @media only screen and (max-width: 768px) {
+    .navigation li:not(:first-child) {
+      display: none;
+    }
+  
+    .navigation li.dropdown-open {
+      display: block;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  
+    .mobile-menu {
+      display: none;
+    }
+  
+    .mobile-menu-open .mobile-menu {
+      display: block;
+    }
+  }
+   */
+  /* styles.css */
+/* ... (previous styles) */
+
+@media (max-width: 816px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
+  /*******************ABOUT ****************/
+  .container {
+    position: absolute;
+    top: 100%;
+    padding: 12%;
+   
+  }
+  /*********************location ****************/
+  /* .cus_input .input-group .form-control {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    box-shadow: none;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    border-right: none;
+    color: #a09f9f;
+    height: 40px;
+  } */
